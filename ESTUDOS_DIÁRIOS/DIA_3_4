@@ -1,0 +1,67 @@
+﻿Fundamentos do teste de software
+
+O que é Teste de Software e QA?
+🔹 Teste de Software → Processo para encontrar erros e garantir que um sistema funcione corretamente.
+🔹 QA (Quality Assurance) → Conjunto de práticas para evitar problemas e melhorar a qualidade do software.
+
+Por que o Teste de Software é Importante?
+ Garante que o software funcione corretamente antes do lançamento.
+ Evita bugs que podem causar prejuízos financeiros.
+ Melhora a experiência do usuário.
+ Reduz custos com correções tardias.
+
+ Tipos de Teste
+🛠️ Teste Funcional → Verifica se as funções do software atendem aos requisitos.
+⚡ Teste de Performance → Mede a velocidade e estabilidade do sistema.
+🔐 Teste de Segurança → Protege contra invasões e vulnerabilidades.
+🎮 Teste de Usabilidade → Garante que o software seja fácil de usar.
+🤖 Teste Automatizado → Usa scripts e ferramentas para rodar testes automaticamente.
+
+Os fundamentos do teste de software envolvem conceitos essenciais para garantir a qualidade e confiabilidade de um sistema.
+
+1. O que é Teste de Software?
+Teste de software é o processo de verificar e validar um sistema para garantir que ele atenda aos requisitos especificados e funcione corretamente.
+
+2. Objetivos do Teste
+Detectar defeitos antes que o software chegue ao usuário final.
+Garantir que o sistema está de acordo com os requisitos.
+Melhorar a qualidade do software.
+Reduzir riscos e custos de falhas em produção.
+
+3. Princípios Fundamentais do Teste
+Testes mostram a presença de defeitos, não a ausência.
+Testes exaustivos são impossíveis, pois testar todas as combinações é inviável.
+Testes devem começar cedo no ciclo de desenvolvimento.
+Agrupamento de defeitos – geralmente, a maioria dos defeitos está concentrada em poucas áreas do software.
+O efeito Pesticida – repetir os mesmos testes pode torná-los ineficazes; é preciso variá-los.
+Os testes dependem do contexto – softwares diferentes exigem abordagens diferentes.
+A ilusão da ausência de erros – um sistema sem defeitos pode ainda assim não atender às necessidades do usuário.
+
+4. Níveis de Teste
+Teste Unitário 🛠️ – verifica partes individuais do código.
+Teste de Integração 🔗 – avalia a comunicação entre módulos.
+Teste de Sistema 🖥️ – testa o software como um todo.
+Teste de Aceitação ✅ – garante que atende aos requisitos do usuário.
+
+5. Tipos de Teste
+Funcional – avalia se o software faz o que deveria.
+Não Funcional – verifica desempenho, segurança, usabilidade, etc.
+Manual x Automatizado – feito por testadores ou por scripts/testes automáticos.
+Caixa Branca x Caixa Preta – foca no código interno ou apenas na funcionalidade externa.
+
+6. Processo de Teste
+Planejamento e Estratégia
+Criação dos Casos de Teste
+Execução dos Testes
+Registro e Análise de Defeitos
+Repetição e Validação.
+
+7. Importância dos Testes
+Evita falhas críticas.
+Reduz custos com correções tardias.
+Garante melhor experiência ao usuário.
+
+
+Conteúdo adicional estudado no dia 3 e 4: Links abaixo:
+
+https://www.youtube.com/watch?v=exof9oWgIIk&list=PLf8x7B3nFTl3EouPsBoqgbatKti9liVyj - Testes de Software do Zero / Julio de lima 
