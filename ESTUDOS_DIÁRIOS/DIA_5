@@ -1,0 +1,63 @@
+FUNDAMENTOS DO TESTE
+COMO GERAR QUALIDADE NO PRODUTO?
+
+Gerar qualidade não é somente testar o software, nossa principal preocupação deve ser garantir que a solicitação do cliente está de fato sendo realizada pela aplicação!
+	• A atividade de testar engloba uma variedade de artefatos, que juntos geram a qualidade do produto. Podemos citar:
+	• Requisitos atendidos;
+	• Confiança;
+	• Identificar defeitos;
+	• Tomadas de decisão;
+	• Reduzir riscos;
+	• Conformidades contratuais e regulatórias.
+
+TESTAR - É o processo que consiste em todas as atividades de ciclo de vida, estáticas e dinâmicas, realcionadas ao planejamento, preparação e avaliação de produtos de software e produtos de trabalho realaionados, 
+para determinar se satisfazem os requisitos especificados, demonstrando que são adequados à sua finalidade e para detectar defeitos.
+
+	• Teste dinâmico
+		§ Necessita que o software seja executado;
+		§  É o mais utilizado pelo mercado;
+		§  Custo tende a ser mais alto.
+
+	• Teste estático
+		§ Revisão, inspeção e análise estática dos artefatos;
+		§ Qualquer documento do projeto pode ser avaliado desta forma.
+       Por via de regra, o mais usual é que o testador foque nas atividades de ‘teste’ e ‘teste de
+       confirmação’, enquanto o desenvolvedor fique com a responsabilidade de depurar o código.
+
+       O teste que encontra defeitos, cria a oportunidade de melhorar a qualidade do produto.
+
+	• Teste = Qualidade?
+		§ O teste só aumenta a qualidade do software quando:
+		§ Defeitos são encontrados e corrigidos;
+		§ Ocorre a verificação da conformidade dos requisitos funcionais;
+		§ Requisitos não-funcionais (confiabilidade, usabilidade, escalabilidade, etc) são verificados.
+		§ A qualidade custa menos!
+		§ Reduzimos drasticamente o retrabalho;
+		§ Reduzimos custos de manutenção e os chamados de suporte;
+		§ Obtemos um software bem estruturado que facilita novos projetos.
+
+	• Erros, defeitos e falhas
+		§ Um software pode conter defeitos e nunca falhar;
+		§ Falha é um evento;
+		§ Defeito é um estado do software causado por um erro;
+		§ Cuidado com falsos positivos;
+		§ Cuidado com falsos negativos.
+
+		§ Um software sem erros não é uma boa razão para lançar em produção;
+		§ Encontrar e corrigir defeitos não ajuda se:
+		§ O produto não for utilizável;
+		§ O produto não atender às necessidades e expectativas dos usuários.
+
+
+	Conteúdo adicional estudado no dia 5: Links abaixo:
+
+	http://tmtestes.com.br/os-mais-importantes-principios-do-teste-de-software/ - Os mais importantes Princípios do Teste de Software
+
+Myers e o princípio de pareto:
+O princípio de Pareto, ou regra do 80/20, afirma que 80% dos resultados vêm de 20% das causas. Esse conceito é amplamente aplicado na tecnologia.
+
+Aplicações na tecnologia:
+Desenvolvimento de Software – 80% dos erros geralmente vêm de 20% do código.
+Gestão de Projetos de TI – 80% do valor entregue ao usuário vem de 20% das funcionalidades.
+Desempenho de Sistemas – 80% do tempo de processamento pode ser gasto em 20% do código mais crítico.
+Segurança Cibernética – 80% das vulnerabilidades são exploradas por 20% dos ataques mais comuns.
