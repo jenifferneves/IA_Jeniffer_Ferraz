@@ -1,0 +1,38 @@
+Os testes de software no Back-End garantem que a lógica do sistema, as interações com bancos de dados, APIs e servidores funcionem corretamente.
+
+Tipos de Teste no Back-End
+
+Testes Unitários:
+Testam partes isoladas do código, como funções, métodos e classes.
+Exemplo: Testar se uma função de cálculo de impostos retorna o valor correto.
+Ferramentas: JUnit (Java), PyTest (Python), Mocha (Node.js).
+
+Testes de Integração:
+Avaliam se diferentes módulos do sistema se comunicam corretamente.
+Exemplo: Testar se uma API retorna os dados corretos ao consultar um banco de dados.
+Ferramentas: Postman, Supertest, Jest, Newman.
+
+Testes de Banco de Dados:
+Verificam se consultas SQL e transações funcionam corretamente.
+Exemplo: Testar se uma query retorna os resultados esperados ou previne SQL Injection.
+Ferramentas: Flyway, Liquibase, DbUnit.
+
+Testes de API (REST/SOAP):
+Valida endpoints, respostas HTTP, autenticação e carga.
+Exemplo: Verificar se um endpoint /users retorna 200 OK e os dados corretos.
+Ferramentas: Postman, RestAssured, SoapUI.
+
+Testes de Performance e Carga:
+Medem a velocidade e estabilidade do sistema sob diferentes cargas de usuários.
+Exemplo: Testar se um banco de dados aguenta 10.000 requisições simultâneas.
+Ferramentas: JMeter, K6, Locust.
+
+Testes de Segurança:
+Avaliam vulnerabilidades como SQL Injection, Cross-Site Scripting (XSS) e autenticação.
+Ferramentas: OWASP ZAP, Burp Suite, SonarQube.
+
+Conteúdo adicional estudado no dia 6: Links abaixo:
+
+https://martinfowler.com/articles/practical-test-pyramid.html - A Pirâmide de Testes Práticos
+
+https://medium.com/creditas-tech/a-pir%c3%a2mide-de-testes-a0faec465cc2 - A pirâmide de testes
