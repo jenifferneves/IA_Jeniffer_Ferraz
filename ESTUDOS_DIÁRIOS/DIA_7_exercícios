@@ -1,0 +1,80 @@
+Passo a passo para realizar os exercícios abaixo:
+
+Primeira opção:
+
+1) Abrir o site https://sqliteonline.com/;
+
+2) Clicar em PostgreSQL no menu lateral, e em seguida em "Click to connect";
+
+3) No menu superior, onde está escrito "File", clicar e ir até a opção "Open SQL";
+
+4) Importar o arquivo database_challenge.sql (disponível para baixar abaixo dos vídeos de SQL ao lado);
+
+5) Executar o arquivo importado para realizar a criação das tabelas através do botão "Run".
+
+Segunda opção:
+
+1) Baixar o PostgreSQL última versão - link https://www.postgresql.org/download/
+
+2) Abrir arquivo e seguir os passos para abrir - Caso não entenda ingles digite no Google tradutor que fica fácil de configurar.
+
+3) Depois do passo 2, pesquise na sua lista de tarefas o pgAdmin e segue novamente os passos para abrir o aplicativo.
+
+4) E assim está pronto para executar os códigos.
+
+OBS- Caso esteja com dificuldade segue os link do vídeos deixado no dia (Curso Básico de SQL) ensinando como começar a executar os códigos no pgAdmin.
+
+
+Após a configuração, você deverá realizar as seguintes queries:
+
+Com base na tabela de Usuários, você deve:
+
+1) Realizar uma consulta que conte o número de registros na tabela.
+
+R: select count(*) from usuarios;
+
+2) Realizar uma consulta para encontrar o usuário com o id 10.
+
+R: select * from usuarios where id = 10;
+
+3) Realizar uma consulta para encontrar o usuário com o nome "Bruce Wayne".
+
+R: select * from usuarios where nome = 'Bruce Wayne';
+
+4) Realizar uma consulta para encontrar o usuário com o e-mail "ghost_silva@fantasma.com".
+
+R: select * from usuarios where email = 'ghost_silva@fantasma.com';
+
+5) Realizar uma consulta para deletar o usuário com e-mail "peterparker@marvel.com".
+
+R: delete from usuarios where id = 5;
+
+
+Com base na tabela de Produtos, você deve:
+
+
+1) Realizar uma consulta que apresente produtos com descrição vazia;
+
+R: select * from produtos where descricao = '';
+
+2) Realizar uma consulta que apresente produtos com a categoria "games";
+
+R: select * from produtos where categoria = 'games';
+
+3) Realizar uma consulta que apresente produtos com preço "0";
+
+R: select * from produtos where preco = 0;
+
+4) Realizar uma consulta que apresente produtos com o preço maior que "100.00";
+
+R: select * from produtos where preco > 100;
+
+5) Realizar uma consulta que apresente produtos com o preço entre "1000.00" e "2000.00";
+
+R: select * from produtos where preco > 1000 and preco < 2000;
+
+6) Realizar uma consulta que apresente produtos em que o nome contenha a palavra "jogo";
+
+R: select * from produtos where nome ilike 'j%';
+
+OBS: Todos os exercícios acima foram realizados no pgAdmin.
