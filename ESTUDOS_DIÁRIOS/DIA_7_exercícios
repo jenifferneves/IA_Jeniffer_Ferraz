@@ -78,3 +78,4 @@ R: select * from produtos where preco > 1000 and preco < 2000;
 R: select * from produtos where nome ilike 'j%';
 
 OBS: Todos os exercícios acima foram realizados no pgAdmin.
+Arquivo para realizar os exercícios estão no dia 7 - Arquivo (database_challenge.sql)
