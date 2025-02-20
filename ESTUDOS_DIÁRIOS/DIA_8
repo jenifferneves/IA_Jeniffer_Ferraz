@@ -1,0 +1,19 @@
+﻿SQL (Structured Query Language) – Bancos de Dados Relacionais
+O SQL é uma linguagem usada para gerenciar bancos de dados relacionais, ou seja, aqueles que organizam os dados em tabelas (linhas e colunas) com relacionamentos estruturados.
+
+🔹 Características principais:
+✅ Usa um esquema fixo com tabelas pré-definidas.
+✅ Excelente para manter integridade e consistência dos dados.
+✅ Recomendado para aplicações que exigem transações complexas, como bancos e sistemas corporativos.
+
+NoSQL (Not Only SQL) – Bancos de Dados Não Relacionais
+Os bancos NoSQL foram criados para lidar com grandes volumes de dados e oferecer mais flexibilidade, sem a necessidade de um esquema rígido. Eles são amplamente usados em aplicações escaláveis, como redes sociais, streaming e big data.
+
+🔹 Principais tipos de NoSQL:
+✅ Baseado em Documentos (Ex.: MongoDB) → Armazena dados em JSON/BSON.
+✅ Chave-Valor (Ex.: Redis) → Usa pares de chave e valor, ótimo para cache.
+✅ Colunar (Ex.: Apache Cassandra) → Organiza os dados por colunas em vez de linhas.
+✅ Grafos (Ex.: Neo4j) → Modela relações complexas, útil para redes sociais.
+
+🔹 SQL → Estruturado, ideal para dados organizados e sistemas financeiros.
+🔹 NoSQL → Flexível, escalável e ideal para big data e aplicações modernas.
