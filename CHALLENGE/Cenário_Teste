@@ -1,0 +1,56 @@
+﻿Cenários de Teste para o Cadastro de Vendedores:
+
+	1. Cadastro de Vendedor com Dados Válidos
+		○ Descrição: Um vendedor tenta se cadastrar com dados válidos (nome, e-mail, senha, administrador).
+		○ Entrada: Nome, e-mail válido (não Gmail nem Hotmail), senha válida.
+		○ Resultado Esperado: Cadastro bem-sucedido, o vendedor é criado no sistema com status "ativo".
+		
+	2. Cadastro de Vendedor com E-mail Já Utilizado (POST)
+		○ Descrição: Um vendedor tenta se cadastrar com um e-mail já existente no banco de dados.
+		○ Entrada: Nome, e-mail já registrado, senha válida.
+		○ Resultado Esperado: Sistema retorna erro informando que o e-mail já está em uso (erro 400 ou 401).
+		
+	3. Cadastro de Vendedor com E-mail Inválido
+		○ Descrição: Um vendedor tenta se cadastrar com um e-mail em formato inválido.
+		○ Entrada: Nome, e-mail no formato errado (ex: "user@com"), senha válida.
+		○ Resultado Esperado: Sistema retorna erro de validação de e-mail (erro 400).
+		
+	4. Cadastro de Vendedor com Senha Curta (Menos de 5 Caracteres)
+		○ Descrição: Um vendedor tenta se cadastrar com uma senha com menos de 5 caracteres.
+		○ Entrada: Nome, e-mail válido, senha com 4 caracteres.
+		○ Resultado Esperado: Sistema retorna erro de validação de senha (erro 400).
+		
+	5. Cadastro de Vendedor com Senha Longa (Mais de 10 Caracteres)
+		○ Descrição: Um vendedor tenta se cadastrar com uma senha com mais de 10 caracteres.
+		○ Entrada: Nome, e-mail válido, senha com 11 caracteres.
+		○ Resultado Esperado: Sistema retorna erro de validação de senha (erro 400).
+		
+	6. Atualização de Vendedor com ID Existente (PUT)
+		○ Descrição: Um vendedor tenta atualizar seu cadastro com um ID válido.
+		○ Entrada: ID do vendedor existente, novos dados válidos.
+		○ Resultado Esperado: Dados do vendedor atualizados com sucesso.
+		
+	7. Cadastro de Vendedor com Feedback Adequado em Caso de Falha
+		○ Descrição: O sistema fornece uma mensagem de erro clara e compreensível quando o cadastro falha por algum motivo.
+		○ Entrada: Nome, e-mail já utilizado ou senha inválida.
+		○ Resultado Esperado: O sistema retorna uma mensagem clara explicando o motivo do erro (e.g., "E-mail já registrado", "Senha inválida").
+		
+	8. Deletar Vendedor com ID Não Existente
+		○ Descrição: Um vendedor tenta deletar seu cadastro com um ID inexistente.
+		○ Entrada: ID inexistente.
+		○ Resultado Esperado: Sistema retorna erro informando que o vendedor não foi encontrado (erro 404).
+		
+	9. Verificar Resposta do Sistema em Operações de CRUD
+		○ Descrição: Verificar se o tempo de resposta do sistema para qualquer operação de CRUD (criar, atualizar, listar, deletar) é inferior a 3 segundos.
+		○ Entrada: Operações de criação, atualização, listagem e exclusão de um vendedor.
+		○ Resultado Esperado: Tempo de resposta menor que 3 segundos.
+		
+	10. Verificar Testes de Segurança e LGPD
+		○ Descrição: Garantir que as práticas de segurança e LGPD estão sendo seguidas.
+		○ Entrada: Ações que envolvem dados pessoais (cadastro, atualização).
+		○ Resultado Esperado: Dados do vendedor são criptografados e armazenados de forma segura, conforme os requisitos da LGPD.
+	
+	11. Testes de Cobertura Completa de Verbs HTTP (GET, POST, PUT, DELETE)
+		○ Descrição: Verificar se os testes cobrem todos os verbos HTTP utilizados (GET, POST, PUT, DELETE) para todas as operações de CRUD.
+		○ Entrada: Ações de cadastro, atualização, listagem e exclusão de vendedores.
+		○ Resultado Esperado: Todos os verbos HTTP estão corretamente cobertos por testes.
