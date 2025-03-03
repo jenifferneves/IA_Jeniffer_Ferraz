@@ -1,0 +1,87 @@
+Plano de Teste para API ServeRest - Foco em Login
+
+1. Introdução
+A API Serverest é uma API de estudo que simula as funcionalidades de um e-commerce, permitindo o cadastro e autenticação de usuários. Este plano de teste tem como foco exclusivo a funcionalidade de Login, assegurando que o sistema responda corretamente às operações de autenticação de usuários.
+
+2. Objetivo
+O objetivo deste plano de teste é garantir que a funcionalidade de Login da API Serverest funcione corretamente, atendendo aos seguintes requisitos:
+	• Permitir apenas autenticação de usuários cadastrados.
+	• Retornar os códigos de status HTTP apropriados.
+	• Implementar validação segura dos dados do usuário.
+	• Garantir tempo de resposta adequado.
+	
+3. Escopo
+Este plano de teste cobre apenas a funcionalidade de Login, incluindo:
+	• Autenticação de usuários com credenciais válidas.
+	• Respostas para credenciais inválidas ou usuários inexistentes.
+	• Expiração e renovação de tokens.
+	
+4. Estratégia de Teste
+A estratégia de teste será dividida entre testes manuais e automatizados:
+	• Testes Manuais: Casos de teste exploratórios e verificação inicial da API.
+	• Testes Automatizados: Scripts para validar respostas da API, consistência de tokens e segurança.
+	
+5. Pessoas Envolvidas
+	• Analista de Testes
+	• Desenvolvedor da API
+	• Gerente de Qualidade
+	
+6. Priorização de Teste
+	1. Alta Prioridade:
+		· Autenticação de usuário com credenciais válidas.
+		· Bloqueio de login com credenciais inválidas.
+		· Verificação de tokens para sessões autenticadas.
+	2. Média Prioridade:
+		· Expiração e renovação de tokens.
+		· Validação de respostas para usuários inexistentes.
+	3. Baixa Prioridade:
+		· Testes de carga para autenticação simultânea.
+		
+7. Candidatos para Automação
+Os seguintes testes são candidatos à automação:
+	• Autenticação de usuário com credenciais válidas.
+	• Login com credenciais inválidas.
+	• Verificação de expiração e renovação de tokens.
+	
+8. Local dos Testes
+Os testes serão realizados remotamente em um ambiente controlado, garantindo a segurança e estabilidade do sistema.
+
+9. Recursos Necessários
+	• Ferramentas: 
+		· Postman para testes manuais e automação inicial.
+		· Newman para execução de testes automatizados.
+		· Mocha + Chai para validação de respostas.
+		· Jira para rastreamento de falhas.
+		
+10. Critérios de Aceitação
+	• Cadastro e Autenticação: Apenas usuários cadastrados devem poder se autenticar.
+	• Validação de Credenciais: Senhas erradas ou e-mails inexistentes devem gerar resposta apropriada.
+	• Tokens: Devem ser gerados corretamente, com verificação de expiração e renovação.
+	• Segurança: Nenhum dado sensível deve ser exposto na resposta da API.
+	• Tempo de Resposta: O tempo de resposta deve ser inferior a 2 segundos.
+	
+11. Riscos
+	• Falta de documentação detalhada pode dificultar a cobertura dos testes.
+	• Possíveis inconsistências na geração e expiração de tokens.
+	• Ataques de força bruta caso não haja limite de tentativas de login.
+	
+12. Divulgação dos Resultados
+	• Relatório Diário: Status dos testes e defeitos encontrados.
+	• Relatório Final: Resumo dos testes, falhas e sugestões de correções.
+	
+13. Cronograma
+FASE	DESCRIÇÃO	DURAÇÃO ESTIMADA
+Planejamento	Definir escopo, ferramentas	1 dia 
+Configuração	Configuração do ambiente e ferramentas	1 dia 
+Teste Manual	Execução inicial de testes	2 dias
+Automação	Criar e executar scripts	3 dias
+Teste de Regressão	Reteste após correções	2 dias
+Análise de Resultado	Relatório final	1 dia
+Total		10 dias
+
+14. Observações Complementares
+	• Testar com diferentes perfis de usuário (admin e comum).
+	• Garantir proteção contra ataques de força bruta.
+	• Simular acessos concorrentes para testar estabilidade.
+	
+Este plano de teste garante que a funcionalidade de Login da API Serverest seja validada de forma eficiente e segura

@@ -1,0 +1,30 @@
+SERVEREST - Cadastro de Vendedor no Marketplace
+
+COMO vendedor de uma loja
+EU QUERO me cadastrar no Marketplace do ServeRest
+PARA QUE eu possa realizar as vendas dos meus produtos para os clientes
+
+Requisitos do Negócio
+RN_1 - O vendedor deve possuir os campos NOME, E-MAIL, PASSWORD e ADMINISTRADOR.
+RN_2 - Não deve ser possível realizar ações ou chamadas para usuários inexistentes.
+RN_3 - O sistema não deve permitir o cadastro de um usuário com e-mail já utilizado.
+RN_4 - Caso não seja encontrado um usuário com o ID informado no PUT, um novo usuário deve ser criado.
+RN_5 - O sistema não deve permitir o cadastro de um usuário com e-mail já utilizado utilizando PUT.
+RN_6 - O banco de dados e a infraestrutura devem estar disponíveis para o desenvolvimento.
+RN_7 - Deve existir um ambiente de testes configurado e disponível.
+RN_8 - O sistema deve permitir CRUD completo para o cadastro de vendedores (Criar, Atualizar, Listar e Deletar).
+RN_9 - O sistema deve implementar testes cobrindo todos os verbos HTTP usados no CRUD.
+RN_10 - A matriz de rastreabilidade deve ser mantida atualizada conforme as alterações do sistema.
+RN_11 - A automação de testes deve ser baseada na análise realizada e cobrir os cenários principais.
+RN_12 - Os testes executados devem gerar evidências documentadas.
+RN_13 - Não deve ser possível cadastrar usuários com e-mails de provedores Gmail e Hotmail.
+RN_14 - Os e-mails informados devem seguir um formato válido, garantindo conformidade com padrões aceitos.
+RN_15 - As senhas devem possuir mínimo de 5 e máximo de 10 caracteres.
+RN_16 - A cobertura de testes deve se basear no Swagger e incluir cenários alternativos.
+RN_17 - O cadastro de usuários deve garantir segurança dos dados, conforme as melhores práticas de autenticação.
+RN_18 - O sistema deve impedir cadastramento duplicado, garantindo unicidade de e-mails no banco.
+RN_19 - Os usuários devem receber feedback adequado caso o cadastro falhe por qualquer motivo.
+RN_20 - O tempo de resposta do sistema para operações de CRUD deve ser inferior a 3 segundos.
+RN_21 - O sistema deve estar conforme a LGPD, garantindo a proteção dos dados dos vendedores.
+
+“Como [tipo de usuário], eu quero [ação] para que [benefício].”
