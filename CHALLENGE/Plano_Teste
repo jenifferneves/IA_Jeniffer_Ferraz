@@ -70,14 +70,14 @@ Os testes serão realizados remotamente em um ambiente controlado, garantindo a s
 	• Relatório Final: Resumo dos testes, falhas e sugestões de correções.
 	
 13. Cronograma
-FASE	DESCRIÇÃO	DURAÇÃO ESTIMADA
-Planejamento	Definir escopo, ferramentas	1 dia 
-Configuração	Configuração do ambiente e ferramentas	1 dia 
-Teste Manual	Execução inicial de testes	2 dias
-Automação	Criar e executar scripts	3 dias
-Teste de Regressão	Reteste após correções	2 dias
-Análise de Resultado	Relatório final	1 dia
-Total		10 dias
+FASE	              DESCRIÇÃO	                                DURAÇÃO ESTIMADA
+Planejamento	      Definir escopo, ferramentas	            1 dia 
+Configuração	      Configuração do ambiente e ferramentas    1 dia 
+Teste Manual	      Execução inicial de testes	            2 dias
+Automação	          Criar e executar scripts	                3 dias
+Teste de Regressão	  Reteste após correções	                2 dias
+Análise de Resultado  Relatório final	                        1 dia
+Total		                                                    10 dias
 
 14. Observações Complementares
 	• Testar com diferentes perfis de usuário (admin e comum).
