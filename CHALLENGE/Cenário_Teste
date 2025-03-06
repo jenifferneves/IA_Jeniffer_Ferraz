@@ -54,3 +54,10 @@
 		○ Descrição: Verificar se os testes cobrem todos os verbos HTTP utilizados (GET, POST, PUT, DELETE) para todas as operações de CRUD.
 		○ Entrada: Ações de cadastro, atualização, listagem e exclusão de vendedores.
 		○ Resultado Esperado: Todos os verbos HTTP estão corretamente cobertos por testes.
+
+
+	• SUITS CASOS DE TESTE/LOGIN
+
+	•  /Login
+		· Login com Credenciais Válidas: Garantir que um usuário pode fazer login com as credenciais corretas.
+		· Login com Credenciais Inválidas: Confirmar que o sistema bloqueia o login com dados errados.
