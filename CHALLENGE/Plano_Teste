@@ -51,7 +51,9 @@ Os testes serão realizados remotamente em um ambiente controlado, garantindo a s
 		· Postman para testes manuais e automação inicial.
 		· Newman para execução de testes automatizados.
 		· Mocha + Chai para validação de respostas.
-		· Jira para rastreamento de falhas.
+		· Xmind para mapa mental
+		· OneNote para escrita de documentação
+
 		
 10. Critérios de Aceitação
 	• Cadastro e Autenticação: Apenas usuários cadastrados devem poder se autenticar.
